@@ -1,0 +1,186 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2011 Jason R. Blevins
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+% Fonts
+%\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+
+% Set your name here
+\def\name{Max Flander}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.3in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\bigskip
+
+\begin{minipage}[t]{0.4\textwidth}
+  6 Garfield St \\
+  Fitzroy \\
+  VIC 3065 \\
+  Australia
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Phone: (61)-434-199-636 \\
+  Email: \href{mailto:max.flander@gmail.com}{max.flander@gmail.com} \\
+\end{minipage}
+\raggedright
+\section*{Education}
+\begin{itemize}
+	\item Ph.D.  Mathematics, University of Melbourne, 2013.
+	\item ``Probabilistic Graphical Models'', Stanford University Online, \emph{Statement of Accomplishment with Distinction}, 2012.
+	\item B.Sc(Hons). Pure Mathematics, University of Melbourne, \emph{First Class Honours}, 2007. 
+	\item AMSI ICE-EM Graduate School in Mathematics, July 2005. 
+	\item VCE, Preshil, the Margaret Lyttle Memorial School, 2002.
+\end{itemize}
+
+\section*{Work Experience}
+
+\begin{itemize}
+	\item Project Reviwer/Student Mentor (AI nanodegree). Udacity. Predictive modelling. Feb 2017--Present.
+	\item Data Scientist. SEEK Ltd. Predictive modelling (Python), Data processing/ETL (Python, Spark, Hadoop, Haskell), Search engine development(Java). May 2014--Present.
+	\item Data Scientist. Predictive Match. Recommendation system development, data visualisation, structured/semi-structured data analysis. Sep 2013--May 2014.
+	\item Statistical consultant. Australian Centre for Excellence in Risk Analysis, University of Melbourne. Supervisor: Mark Burgman, 2009-2010,
+	\item Research Assistant. University of Melbourne. Scientific software development and data analysis. Supervior: Alex Ghitza, 2011.
+	\item Tutor. Linear Algebra and Calculus, University of Melbourne, 2009--2013
+\end{itemize}
+\section*{Skills}
+
+%% \subsection*{General skills \& attributes}
+%% \begin{itemize}
+%% \item Excellent time management, project managment. 
+%% \item Demonstrated innovation, flexibility and adaptability and resiliency.
+%% \item Strong technical and non-technical written/verbal communication skills.
+%% \end{itemize}
+
+
+\subsection*{Programming languages and software packages}
+\begin{itemize}
+\item Python, R, scikit-learn, TensorFlow, Java, SQL, Spark/Hive/Hadoop, Matlab, Mathematica, Unix/Linux, Git, Continous Delivery/Continous Integration.
+\end{itemize}
+
+\subsection*{Statistical analysis}
+\begin{itemize}
+\item Descriptive statistics, linear/nonlinear classification and regression, times series analysis, unsupervised clustering, dimensionality reduction, data visualisation. 
+\end{itemize}
+
+\subsection*{Machine Learning}
+\begin{itemize}
+\item Linear/Logistic Regression, Support vector machines, gradient boosted forests, recurrent/convolutional neural networks (TensorFlow), Collaborative filtering, Bayesian/Markov networks, decision trees, text mining, unstructured data.
+\end{itemize}
+
+
+
+ \subsection*{Scientific software development}
+ \begin{itemize}
+ \item \href{http://scikit-learn.org}{scikit-learn (Python machine learning library)} --
+   Contributer 2016-present
+ \item \href{http://jupyter.org}{Project Jupyter (Python browser-based notebooks for scientitic computing)} --
+   Contributer 2016-present
+ \item \href{http://pandas.pydata.org}{pandas (Python data analysis library)} --
+   Contributer 2016-present
+ \item \href{http://sage.org}{Sage (Open Source Mathematics Software)} --
+   Contributer 2009-2012; Lorenz Institute-sponsored participant Sage Days 23, Leiden University (Netherlands), July 5--19, 2010.
+ \end{itemize}
+
+
+
+\subsection*{Research Interests}
+\begin{itemize}
+\item Machine learning, Big Data, Reproducible Data Analysis.
+\end{itemize}
+
+\section*{Honors, Awards, \& Fellowships}
+
+\begin{itemize}
+\item 12K reputation on \href{http://stackoverflow.com/users/839957/maxymoo?tab=profile}Stackoverflow, tag badges in numpy, scikit-learn and pandas. current.
+\item Australian Postgraduate Award (PhD Scholarship), 2009--2012.
+\item Professor Nanson Prize (awarded for the best original memoir on a subject in Pure or Applied Mathematics), 2008.
+\item Professor Wilson Prize (awarded on the recommendation of the Head of Department of Mathematics and Statistics for the best thesis in Pure or Applied Mathematics for the Bachelor of Science (Degree with Honours) or Master of Science), 2008.
+\item University of Melbourne Faculty Honours Scholarship, 2007.
+%\item  University of Melbourne Vacation Scholarship Program, 2005, 2006.
+%% \item Omicron Delta Epsilon, International Economics Honor Society, 2004.
+%\item AMSI Grad-School Stipend, Jan 2005, Jul 2005.
+\end{itemize}
+
+\subsection*{Invited Conference Presentations}
+\begin{itemize}
+\item  ``Bases of Modular Forms'' -- Modular Forms 2011, Ruprecht-Karls-Universit�t Heidelberg, Sep 5--8, 2011.
+\item ``Galois Cohomology'' -- AMSI Winter School in Mathematics, University of Queensland, Jul 23, 2005.
+\end{itemize} 
+
+
+%\medskip
+%
+%% Footer
+%\begin{center}
+%  \begin{small}
+%    Last updated: \today
+%  \end{small}
+%\end{center}
+
+\end{document}
